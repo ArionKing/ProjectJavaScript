@@ -19,3 +19,7 @@ function changeColour() {
 // Add event listener to the button
 document.getElementById("colourButton").addEventListener("click", changeColour); //document.getElementById searches my HTML document and finds the ID of colourButton.
 // .addEventListener("click", changeColour) adds an event listener to that button so when its clicked the function changeColour is called.
+
+
+
+//Slideshow code//
