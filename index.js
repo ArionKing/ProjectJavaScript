@@ -4,7 +4,7 @@ function getRandomColour() { // this is simply declaring a function and giving i
     const letters = "0123456789ABCDEF" ; // this is declaring a constant called letters and assining a string value to it.
     let colour = "#"; // this is declaring a variable called colour and assining another string value.
     for (let i = 0; i < 6; i++) { // this is a for loop to generate a colour
-        colour += letters[Math.floor(math.random() * 16)]; //math.floor generates random number between 0 and 1. math.random rounds down the nearest whole number. 
+        colour += letters[Math.floor(Math.random() * 16)]; //math.floor generates random number between 0 and 1. math.random rounds down the nearest whole number. 
     }
     return colour;
 }
