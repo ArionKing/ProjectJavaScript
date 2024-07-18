@@ -24,7 +24,7 @@ document.getElementById("colourButton").addEventListener("click", changeColour);
 
 //Slideshow code//
 let currentSlide = 0; // This line declares a variable currentSlide and initializes it to 0. 
-const slides = document.quereySelectorAll("#slideshow img"); 
+const slides = document.querySelectorAll("#slideshow img"); 
 const totalSlides = slides.length;
 
 function showSlide(index) { // defining a function
