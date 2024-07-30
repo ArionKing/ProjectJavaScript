@@ -185,3 +185,139 @@
 //     console.log("Modulus and assign integer: " + sum);
 // })(); 
 
+// Make comparisons 
+
+// (function () {
+//     let comparison, sum = 8, str ="JavaScript"; 
+//     comparison = str === "JAVASCRIPT";
+//     console.log("String Equality? " + comparison);
+//     comparison = str === "JavaScript";
+//     console.log("String Equality? " + comparison);
+//     comparison = sum === 8;
+//     console.log("Number Equality? " + comparison);
+//     comparison = sum < 5;
+//     console.log("Less than? " + comparison);
+//     comparison = sum <= 8;
+//     console.log("Less than or equal to? " + comparison);
+//     comparison = sum <= 8;
+//     console.log("Greater than or equal to " + comparison);
+// })(); 
+
+// Assess Logic 
+
+// ( function() {
+//     let result, yes = true, no = false;
+//     result = yes && yes;
+//     console.log("Are both True? " + result); 
+//     result = yes && no;
+//     console.log("Are both still True? " + result); 
+//     result = yes || no; 
+//     console.log("Are either True? " + result);
+//     console.log("Original value " + yes); 
+//     yes = !yes;
+//     console.log("Toggled Value " + yes);
+// })();
+
+// Examine Conditions 
+
+// ( function() {
+//     const numOne = 8, numTwo = 3;
+//     let verb = (numOne !== 1) ? " are " : " is ";
+//     console.log("There" + verb + numOne);
+
+//     let parity = (numOne % 2 !==0) ? " Odd" : " Even";
+//     console.log(numOne + " is" + parity);
+
+//     parity = (numTwo % 2 !==0) ? " Odd" : " Even";
+//     console.log( numTwo + " is" + parity);
+
+//     let max = (numOne > numTwo) ? numOne : numTwo;
+//     console.log(max + " is the Greater Number");
+// })(); 
+
+// Force Order 
+
+// ( function () {
+//     let sum = ( 9 + 12) / 3; 
+//     console.log("Ungrouped sum: " + sum );
+// })();  
+
+// Branch if and if statements
+
+// let flag = true 
+// if (!flag) {
+//     console.log("power is OFF!");
+// };
+
+// if (flag) {
+//     console.log("power is ON!");
+// }; 
+
+// if (7 < 2) {
+//     console.log("Failure");
+// };
+
+// if (7 > 2) {
+//     console.log("Success");
+// };
+
+// Branch Alternatives 
+
+// ( function () {
+//     let flag = false;
+//     const num = 10;
+
+//     if (!flag) {
+//         console.log("Power is OFF");
+//     }
+//     else {
+//     console.log("Power os ON");
+//     }
+
+//     if (num === 5) {
+//         console.log("Number is Five");
+//     }
+//     else if (num === 10) {
+//         console.log("Number is Ten");
+//     }
+//     else { 
+//         console.log ("Number is Neither Ten nor Five");
+//     }
+//     }
+// )(); 
+
+
+// Switch Alternatives
+
+
+// ( function () {
+//     let day
+
+//     switch (7) {
+//         case 1 : day = "Monday" ; break;
+//         case 2 : day = "Tuesday" ; break;
+//         case 3 : day = "Wednesday" ; break;
+//         case 4 : day = "Thursday" ; break;
+//         case 5 : day = "Friday" ; break;
+//         default : day = "Weekend"; 
+//     }
+//     console.log("It is " + day); 
+// })();
+
+//For Loops
+
+// for (let i = -4; i < 5; i++) {
+//     console.log("Number is: " + i);
+// }; 
+
+// ( function() {
+//     for (i = 1; i < 11; i++) {
+//         console.log("Interation Number: " + i);
+//     }
+// })(); 
+
+//While Loop
+
+
+
+
